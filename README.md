@@ -4,7 +4,7 @@ This workbook (`test_set_labeled_validation.xlsx`) contains the manually visuall
 
 ## Ground-truth annotations
 
-Each image was visually interpreted to determine its crop identity and, for rapeseed images, its principal BBCH growth stage.
+Each image was visually interpreted to determine its crop identity and, for rapeseed images, its principal BBCH growth stage. The principal BBCH stage and pod stage of each rapeseed image were independently annotated by three annotators, recorded in the columns suffixed `_annotator_1`, `_annotator_2`, and `_annotator_3`.
 
 - **`label`** is the manually assigned crop label, including rapeseed and non-rapeseed.
 - **`bbch_principal`** is the manually assigned principal BBCH stage for rapeseed. The available stage groups are `1`, `2`, `3`, `5`, `6`, `7-8`, and `9`. 
